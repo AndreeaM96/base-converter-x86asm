@@ -1,5 +1,4 @@
-
-	Mai intai verific daca datele introduse necesita intrarea in bucla sau nu:
+Mai intai verific daca datele introduse necesita intrarea in bucla sau nu:
 - Daca baza introdusa este gresita, afisez mesajul aferent.
 - Daca numarul dat este mai mic decat baza, afisez direct numarul, deoarece nu va necesita impartiri
 - Daca se trece de conditiile de mai sus, numarul necesita intrarea in bucla
@@ -8,7 +7,7 @@ Fac, initial, o impartire in afara buclei pentru a putea pune datele in registre
 Dupa aceasta impartire, pun pe stiva restul obtinut si initializez ecx cu 1
 In registru ecx voi retine cate elemente am adaugat pe stiva pentru a le putea scoate mai usor dupa aceea.
 
-Apoi intru in bucla. Nu va mai fi nevoie de edx, deci il golesc pentru a nu afecta impartirea, iar de acum incolo eax va contine numarul care trebui impartit.
+Apoi intru in bucla. Nu va mai fi nevoie de edx, deci il golesc pentru a nu afecta impartirea, iar de acum incolo eax va contine numarul care trebuie impartit.
 Continui sa impart si sa pun resturile pe stiva si sa incrementez ecx pana cand numarul (retinut mereu in eax) devine mai mic decat baza (retinuta in ebx).
 In momentul in care iesim din bucla, numarul din eax va fi mai mic decat baza, deci il adaug direct pe stiva si incrementez ecx.
 
